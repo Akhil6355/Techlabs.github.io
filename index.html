@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Tech9labs</title>
+    <style>
+        .whiteBtn{
+            position: relative;
+            padding: 10px 25px;
+            line-height: 24px;
+            text-transform: uppercase;
+            background: none;
+            color: #ffffff !important;
+            font-size: 15px;
+            font-weight: 600;
+            border: 2px solid #ffffff !important;
+            border-radius: 3px;
+        }
+        .imgDiv{
+            position: absolute;
+            left: -45px;
+        }
+        .custom{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+        }
+        .bigFont{
+            font-size: 57px;
+            font-weight: 700;
+            color: #281D62;
+        }
+        .blueBtn{
+            position: relative;
+            padding: 10px 25px;
+            line-height: 24px;
+            text-transform: uppercase;
+            background: #281d62;
+            color: #ffffff !important;
+            font-size: 15px;
+            font-weight: 600;
+            border: 2px solid #281d62 !important;
+            border-radius: 3px;
+        }
+        .customDiv2{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            justify-content: space-evenly;
+            padding: 100px;
+        }
+        .box3 .overlay-box {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 96%;
+            height: 100%;
+            padding: 50px 30px 20px 30px;
+            color: #ffffff !important;
+            background: rgba(40,29,98,0.70);
+            opacity: 0;
+            text-decoration: none;
+        }
+        .box3 .overlay-box:hover{
+            opacity: 1;
+            text-decoration: none;
+        }
+        .box3 a{
+            color: #ffffff !important;
+        }
+        .box3 img{
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .box3 .innerBox{
+            height: 300px;
+        }
+        a:hover{
+            text-decoration: none !important;
+        }
+        .g{
+            color: #a0a0a0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand"><img src="\images/tech9logo.png" alt="tech9lab"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-2">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item dropdown mr-2">
+                    <a class="nav-link dropdown-toggle" href="/about.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT US
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/companyoverview.html">COMPANY OVERVIEW</a>
+                        <a class="dropdown-item" href="/ourvisionmission&corevalue.html">OUR MISSION, VISION & CORE
+                            VALUE</a>
+                        <a class="dropdown-item" href="/ourteams.html">OUR TEAM</a>
+                        <a class="dropdown-item" href="/about.html">CAREERS</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-2">
+                    <a class="nav-link dropdown-toggle" href="/specialization.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SPECIALIZATIONS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/specialization.html">IT INFRASTRUCTURE SOLUTIONS</a>
+                        <a class="dropdown-item" href="/specialization.html">CYBER SECURITY SOLUTIONS</a>
+                        <a class="dropdown-item" href="/specialization.html">IT INFRASTUCTURE SERVICES</a>
+                        <a class="dropdown-item" href="/specialization.html">INTELIGENT NETWORKS</a>
+                        <a class="dropdown-item" href="/specialization.html">MOBILITY & APPLICATION
+                            DEVELOPMENT</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown mr-2">
+                    <a class="nav-link dropdown-toggle" href="/practice.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PRACTICE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/practice.html">SYSTEM INTEGRATION</a>
+                        <a class="dropdown-item" href="/practice.html">STORAGE PRACTICE</a>
+                        <a class="dropdown-item" href="/practice.html">CLOUD PRACTICE</a>
+                        <a class="dropdown-item" href="/practice.html">CYBER SECURITY PRACTICE</a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="/pressrelese.html">PRESS RELESE</a>
+                </li>
+
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="/blogs.html">BLOGS</a>
+                </li>
+
+                <li class="nav-item mr-2
+                ">
+                    <a class="nav-link" href="/contactus.html">CONTACT US</a>
+                </li>
+
+
+            </ul>
+            <div class="my-2 my-lg-0">
+                <a href="javascript:;" class="btn btn-outline-success my-2 my-sm-0">Solution</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 p-0">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="\images/pic24.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="\images/pic24.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="\images/pic24.jpg" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+    <section  style="background-image: url(/images/technology_bg.png)">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-12">
+                    <h2 class="text-center my-5">Technology Verticals</h2>
+                </div>
+                <div class="col-md-4 text-center my-4">
+                    <img src="/images/pic1.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">    
+                    </img>
+                    <h4>Assessment & Consulting</h4>
+                </div>
+                <div class="col-md-4 text-center my-4">
+                    <img src="\images/pic2.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    </img>
+                    <h4>Infrastructure Solution</h4>
+                </div>
+                <div class="col-md-4 text-center my-4">
+                    <img src="\images/pic3.webp" class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    </img>
+                    <h4>Infrastructure Services</h4>
+                </div>
+                <div class="col-md-4 text-center my-4">
+                    <img src="\images/pic51.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    </img>
+                    <h4>Application Development</h4>
+                </div>
+                <div class="col-md-4 text-center my-4">
+                    <img src="\images/pic50.webp" class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    </img>
+                    <h4>Infrastructure Services</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-12 p-0 d-flex align-item-center" style="background-image: linear-gradient(rgba(40,29,98,0.95),rgba(40,29,98,0.95)), url(/images/image-1.jpg);min-height: 400px;">
+                    <div class="p-5 custom">
+                        <h2 class="text-white">Our Services</h2>
+                        <p class="text-white">Tech9labs believes in setting new standards of excellence through its
+                            customer-driven initiatives and services. Our comprehensive portfolio of consulting
+                            services, aligned to your business needs and goals, help you unlock new business
+                            opportunities and outpace your competitors.</p>
+                        <a href="javascript:;" class="whiteBtn">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-12 " style="background-image: url(/images/image-2.jpg);padding: 30px 20px 30px; position: relative; min-height: 400px;">
+                    <div class="imgDiv" style="background-color: rgba(255,255,255,0.85);">
+                        <img src="/images/services.png" alt="" class="img-fluid ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-12 text-center">
+                    <h3 class="my-4">
+                        Helping Companies Create Business Value
+                    </h3>
+                    <p class="my-4">We have grown in footprint, our customer base and in experience with the delivery of end-to-end solutions tailored to our clients'needs. Given our unique capabilities and deep domain expertise, we know how to help your business drive success in both the short and long term.</p>
+                    <p class="my-4">With relentless focus on quality and processes, we have consistently exceeded client expectations and helped them create more business value. We are here to help you grow better.</p>
+                </div>
+                <div class="col-12 my-5">
+                    <div class="row">
+                        <div class="col-md-3 col-12 d-flex align-items-center justify-content-center flex-column">
+                            <h6 class="bigFont">120+</h6>
+                            <p>clients</p>
+                        </div>
+                        <div class="col-md-3 col-12 d-flex align-items-center justify-content-center flex-column">
+                            <h6 class="bigFont">9+</h6>
+                            <p>clients</p>
+                        </div>
+                        <div class="col-md-3 col-12 d-flex align-items-center justify-content-center flex-column">
+                            <h6 class="bigFont">190+</h6>
+                            <p>clients</p>
+                        </div>
+                        <div class="col-md-3 col-12 d-flex align-items-center justify-content-center flex-column">
+                            <h6 class="bigFont">230+</h6>
+                            <p>clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container-fluid" style="background-color: #f6f6f6;">
+            <div class="row">
+                <div class="col-md-6 col-12" style="background-image: url(/images/image-3.jpg); height: 440px;">
+                </div>
+                <div class="col-md-6 col-12 customDiv2">
+                    <h2 class="">Why Tech9labs?</h2>
+                    <p class="">We understand how exasperating it can be for you with undependable IT services and the impact this has on your company’s profitability. As a trusted partner, Tech9labs helps you to achieve the ideal IT environment with its complete solutions and services.</p>
+                    <a href="javascript:;" class="blueBtn">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid my-3" style="padding: 0 150px;">
+            <div class="row box3">
+                <div class="col-12 my-5 text-center">
+                    <h3>Customer Success Stories</h3>
+                    <h6 style="font-style: italic;">Explore our latest works</h6>
+                </div>
+                <div class="col-md-4 col-12 p-0  pr-3">
+                    <div class="innerBox">
+                        <figure class="image-box mb-0"><img src="/images/pic52.jpg" alt=""></figure>
+                        <div class="overlay-box">
+                            <div class="title-box">
+                                <h3><a href="javascript:;">REL Sees 30% Efficiency Improvement in Business Processes with our implemented IBM Solution.</a></h3>
+                            </div>
+                            <div class="options">
+                                <a class="link link-box" href="javascript:;"><span class="fa fa-link"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 p-0 pr-3">
+                    <div class="innerBox">
+                        <figure class="image-box mb-0"><img src="/images/pic53.jpg" alt=""></figure>
+                        <div class="overlay-box">
+                            <div class="title-box">
+                                <h3><a href="javascript:;">REL Sees 30% Efficiency Improvement in Business Processes with our implemented IBM Solution.</a></h3>
+                            </div>
+                            <div class="options">
+                                <a class="link link-box" href="javascript:;"><span class="fa fa-link"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 p-0 pr-3">
+                    <div class="innerBox">
+                        <figure class="image-box mb-0"><img src="/images/pic23.jpg" alt=""></figure>
+                        <div class="overlay-box">
+                            <div class="title-box">
+                                <h3><a href="javascript:;">REL Sees 30% Efficiency Improvement in Business Processes with our implemented IBM Solution.</a></h3>
+                            </div>
+                            <div class="options">
+                                <a class="link link-box" href="javascript:;"><span class="fa fa-link"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="my-5" style="background-color: #f6f6f6;">
+        <div class="container py-5" >
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>What Our Clients Are Saying About Us!</h3>
+                    <h6 style="font-style: italic;">Words from our trusted clients</h6>
+                </div>
+                <div class="col-12 my-5">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active text-center">
+                            <p>
+                                Mr. Sachin Jain (Global CIO & CISO)
+                                Evalueserve.com Pvt. Ltd.
+                                
+                                "Tech9labs domain expertise together on IBM Infrastructure & SAP HANA helped us to bridge the knowledge gap and turnaround a tailor-made solution and successfully deployed such a critical landscape for us. Their support from conceptualization-architecting-deployment has been impressive so far."</p>
+                                <p><strong>Akhilesh</strong></p>
+                                <p>FrontEnd Developer</p>
+                          </div>
+                          <div class="carousel-item text-center">
+                            <p>
+                                Mr. Sachin Jain (Global CIO & CISO)
+                                Evalueserve.com Pvt. Ltd.
+                                
+                                "Tech9labs domain expertise together on IBM Infrastructure & SAP HANA helped us to bridge the knowledge gap and turnaround a tailor-made solution and successfully deployed such a critical landscape for us. Their support from conceptualization-architecting-deployment has been impressive so far."</p>
+                                <p><strong>Akhilesh</strong></p>
+                                <p>FrontEnd Developer</p>
+                          </div>
+                          <div class="carousel-item text-center">
+                            <p>
+                                Mr. Sachin Jain (Global CIO & CISO)
+                                Evalueserve.com Pvt. Ltd.
+                                
+                                "Tech9labs domain expertise together on IBM Infrastructure & SAP HANA helped us to bridge the knowledge gap and turnaround a tailor-made solution and successfully deployed such a critical landscape for us. Their support from conceptualization-architecting-deployment has been impressive so far."</p>
+                                <p><strong>Akhilesh</strong></p>
+                                <p>FrontEnd Developer</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container-fluid p-4">
+
+
+            <!-- Section: Form -->
+            
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+
+
+            <!-- Section: Links -->
+            <section class="my-5">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Quick Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="g">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="g">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="g">Services</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="g">Careers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Other Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="g">Latest News</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="g">Our Team</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="g">Testimonials</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Locate Us</h5>
+                        <p class="text-left mb-0">Address</p>
+                        <p class="g text-left">Integrated Tech9labs Private Limited,
+                            423 DLF Prime Towers, Pocket F,
+                            Okhla Phase 1, Okhla Industrial Area,
+                            New Delhi, Delhi – 110020</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-3">Contact Us</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <h6 class="mb-0">Email Us</h6>
+                            <li class="mb-3">
+                                <a href="#!" class="g">marketing@tech9labs.com</a>
+                            </li>
+                            <h6 class="mb-0">Call Us</h6>
+                            <li class="mb-3">
+                                <a href="#!" class="g mb-3">+91 (11) 41715110</a>
+                            </li>
+                            <h6 class="mb-0">Technical Supports</h6>
+                            <li class="mb-3">
+                                <a href="#!" class="g mb-3">Click here to generate a ticket</a>
+                            </li>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 ALL RIGHT RESERVED
+            <a class="text-white"></a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    
+
+    
+
+    
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
